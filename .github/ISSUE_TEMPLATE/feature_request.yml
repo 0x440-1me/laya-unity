@@ -1,0 +1,23 @@
+name: Feature request
+description: Propose a focused protocol, Unity, or backend improvement
+title: "enhancement: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What game-development or compatibility problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API or behavior
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Protocol and Unity compatibility
+      description: Note affected backends, Unity versions, or wire fields.

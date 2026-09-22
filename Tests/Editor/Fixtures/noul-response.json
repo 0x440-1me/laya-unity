@@ -1,0 +1,12 @@
+{
+  "model": "laya-rl-agent",
+  "answers": {
+    "flee": {
+      "type": "noul",
+      "noul": 0.92,
+      "confidence": 0.92,
+      "vendor_extension": true
+    }
+  },
+  "usage": { "input_tokens": 17, "output_tokens": 0 }
+}

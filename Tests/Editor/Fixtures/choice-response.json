@@ -1,0 +1,14 @@
+{
+  "model": "laya-english",
+  "answers": {
+    "action": {
+      "type": "choice",
+      "choice": "retreat",
+      "probabilities": { "attack": 0.1, "retreat": 0.8, "wait": 0.1 },
+      "confidence": 0.7,
+      "action": { "act_probability": 0.99 }
+    }
+  },
+  "usage": { "input_tokens": 42, "output_tokens": 0 },
+  "routing": { "model": "english" }
+}

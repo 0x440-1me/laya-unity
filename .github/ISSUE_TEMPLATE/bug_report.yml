@@ -1,0 +1,41 @@
+name: Bug report
+description: Report reproducible incorrect behavior in Laya Unity
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package and Unity version
+      placeholder: Laya Unity 0.1.0, Unity 2022.3.x
+    validations:
+      required: true
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Backend
+      options:
+        - Local Laya-compatible server
+        - TypeSafe-compatible endpoint
+        - Custom ISystemOneBackend
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Remove API keys and other secrets.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant sanitized logs
+      description: Never include authorization headers or API keys.

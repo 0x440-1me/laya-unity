@@ -1,0 +1,41 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# IDE
+.idea/
+.vs/
+.vscode/
+*.csproj
+!/.ci/**/*.csproj
+*.sln
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+secrets.json
+
+# Model artifacts are distributed separately
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf

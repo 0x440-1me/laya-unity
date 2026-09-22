@@ -1,0 +1,31 @@
+{
+  "name": "com.0x4401me.laya.unity",
+  "version": "0.1.0",
+  "displayName": "Laya Unity",
+  "description": "Unity-native SDK for Laya and System One decision models.",
+  "unity": "2022.3",
+  "documentationUrl": "https://github.com/0x440-1me/laya-unity/tree/main/Documentation~",
+  "changelogUrl": "https://github.com/0x440-1me/laya-unity/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/0x440-1me/laya-unity/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  },
+  "keywords": [
+    "laya",
+    "system-one",
+    "typesafe",
+    "game-ai",
+    "decision-model"
+  ],
+  "author": {
+    "name": "0x440-1me",
+    "url": "https://github.com/0x440-1me"
+  },
+  "samples": [
+    {
+      "displayName": "NPC Decisions",
+      "description": "A small Choice, Score, and Noul decision example for an NPC.",
+      "path": "Samples~/NPC Decisions"
+    }
+  ]
+}

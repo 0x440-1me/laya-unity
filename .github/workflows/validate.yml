@@ -1,0 +1,29 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  package-and-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate package shape, JSON, secrets, and model exclusions
+        run: python3 scripts/validate_package.py
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Compile runtime and run license-free protocol tests
+        run: dotnet test .ci/Laya.Unity.DotNet.Tests/Laya.Unity.DotNet.Tests.csproj --configuration Release --verbosity normal
+
+  unity-tests-not-configured:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Document Unity test status
+        run: echo "Unity Edit Mode tests are included under Tests/Editor but are not run in hosted CI until a license-safe runner is configured."

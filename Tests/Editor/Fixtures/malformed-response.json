@@ -1,0 +1,10 @@
+{
+  "answers": {
+    "action": {
+      "type": "choice",
+      "choice": "wait",
+      "probabilities": { "wait": "not-a-number" },
+      "confidence": 0.8
+    }
+  }
+}

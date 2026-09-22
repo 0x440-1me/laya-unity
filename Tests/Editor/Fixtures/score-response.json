@@ -1,0 +1,13 @@
+{
+  "model": "jev-latest",
+  "answers": {
+    "danger": {
+      "type": "score",
+      "score": 1.75,
+      "legend": { "0": "safe", "1": "moderate danger", "2": "extreme danger" },
+      "probabilities": { "0": 0.05, "1": 0.15, "2": 0.8 },
+      "confidence": 0.72
+    }
+  },
+  "usage": { "input_tokens": 21, "output_tokens": 3 }
+}
