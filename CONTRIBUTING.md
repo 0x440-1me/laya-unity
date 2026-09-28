@@ -2,11 +2,21 @@
 
 Thanks for helping make Laya Unity dependable.
 
+This is an early community SDK. AI tools are welcome for implementation assistance, but the project should stay human-directed.
+
+## Human-maintained decisions
+
+Architecture, public API design, feature acceptance, roadmap priorities, release decisions, and contribution review should be discussed and decided by people.
+
+Contributors remain responsible for everything they submit, regardless of whether AI assisted with the implementation. AI-generated code must receive human review before merge. Do not mass-generate issues or pull requests.
+
+Labels such as `good first issue`, `help wanted`, `discussion`, and design-oriented work are intended as human/community space unless the maintainer explicitly assigns an agent to them.
+
 ## Before opening a pull request
 
 1. Open or find an issue for behavior changes larger than a typo.
 2. Keep the public API backend-independent; HTTP and inference are separate abstractions.
-3. Add or update protocol fixtures and tests.
+3. Add or update protocol fixtures and tests when behavior changes.
 4. Do not commit API keys, model weights, generated Unity folders, or third-party source without license review.
 5. Update `CHANGELOG.md` for user-visible changes.
 
