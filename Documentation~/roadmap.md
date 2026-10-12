@@ -66,4 +66,4 @@ Examples are **consumers**. No example's domain vocabulary should leak into requ
 
 ## Release discipline
 
-0.1.0 remains the published baseline. Documentation/sample changes alone do not establish a new production-ready runtime version. Merge reviewed documentation/samples after package checks and CI; tag a later runtime release only after matching Unity and backend verification. Distinguish **implemented**, **tests observed**, **planned** and **research-only** in the changelog.
+0.1.0 remains the current package version; no tagged release or Unity Test Runner pass is claimed by this roadmap. Documentation/sample changes alone do not establish a new production-ready runtime version. Merge reviewed documentation/samples after package checks and CI; tag a later runtime release only after matching Unity and backend verification. Distinguish **implemented**, **tests observed**, **planned** and **research-only** in the changelog.
