@@ -2,7 +2,7 @@
   "name": "com.0x4401me.laya.unity",
   "version": "0.1.0",
   "displayName": "Laya Unity",
-  "description": "Unity-native SDK for Laya and System One decision models.",
+  "description": "General-purpose Unity SDK for integrating Laya and compatible System One decision models.",
   "unity": "2022.3",
   "documentationUrl": "https://github.com/0x440-1me/laya-unity/tree/main/Documentation~",
   "changelogUrl": "https://github.com/0x440-1me/laya-unity/blob/main/CHANGELOG.md",
@@ -14,6 +14,8 @@
     "laya",
     "system-one",
     "typesafe",
+    "unity-sdk",
+    "integration",
     "game-ai",
     "decision-model"
   ],
@@ -23,8 +25,18 @@
   },
   "samples": [
     {
+      "displayName": "UI Presentation",
+      "description": "General-purpose UI layout, urgency and contextual hint decisions.",
+      "path": "Samples~/UI Presentation"
+    },
+    {
+      "displayName": "Scene Direction",
+      "description": "Constrained camera shot and visual transition decisions.",
+      "path": "Samples~/Scene Direction"
+    },
+    {
       "displayName": "NPC Decisions",
-      "description": "A small Choice, Score, and Noul decision example for an NPC.",
+      "description": "Optional gameplay-specific NPC decision example.",
       "path": "Samples~/NPC Decisions"
     }
   ]
